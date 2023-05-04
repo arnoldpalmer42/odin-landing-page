@@ -12,6 +12,7 @@ body {
     display: flex;
     justify-content: space-between;
     padding: 8px;
+    color: #F9FAF8
   }
 
   .header-nav {
@@ -32,19 +33,50 @@ body {
     margin-left: auto;
   }
 
-  .header-content {
+  .hero {
     display: flex;
-    flex-direction: row;
-    height: 100%;
-    margin: 12px;
-    gap: 10px;
+    color: #F9FAF8;
+    background-color: #1F2937;
     justify-content: center;
     align-items: center;
+    padding: 90px;
   }
+
+  .hero button {
+    text-align: center;
+    width: 110px;
+    border: none;
+    background: #3882f6;
+    padding: 10px;
+    border-radius: 8px;
+    color: #fff;
+    font-family: 'Roboto', arial;
+    text-decoration: none;
+    font-weight: bold;
+  }
+
+  .hero-1 {
+    flex-basis: 400px;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin-right: 50px;
+  }
+  
+   .hero-1 h2 {
+    margin: 0;
+   }
 
   .content {
     display: flex;
     flex-direction: column;
+  }
+
+  .card-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
   }
 
   .card {
@@ -52,6 +84,43 @@ body {
     display: flex;
     border-style: solid;
     margin: 16px;
+    border-radius: 10px;
     flex-direction: row;
     gap: 25px;
+    padding: 8px;
+    flex: 1;
+  }
+
+  .quote-div {
+    display: flex;
+    flex-direction: column;
+    padding: 96px 96px 96px;
+    font-size: 24px;
+    line-height: 120%;
+    font-style: italic;
+  }
+
+  .sign-up {
+    display: flex;
+    flex-direction: column;
+    border-top-style: solid;
+    border-radius: 10px;
+    margin: 40px;
+  }
+
+  .quote-div p {
+    text-align: right;
+  }
+
+  .sign-up button {
+    text-align: center;
+    width: 110px;
+    border: none;
+    background: #3882f6;
+    padding: 10px;
+    border-radius: 8px;
+    color: #fff;
+    font-family: 'Roboto', arial;
+    text-decoration: none;
+    font-weight: bold;
   }
