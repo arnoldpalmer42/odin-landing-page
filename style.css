@@ -3,5 +3,55 @@ body {
     margin: 0;
     overflow: hidden;
     font-family: Roboto, sans-serif;
+    display: flex;
+    flex-direction: column;
   }
   
+  .header {
+    background-color: #1f2937;
+    display: flex;
+    justify-content: space-between;
+    padding: 8px;
+  }
+
+  .header-nav {
+    flex-direction: row;
+    width: 100%;
+    display: flex;
+    align-items: center;
+  }
+
+  ul {
+    display: flex;
+    list-style-type: none;
+    padding: 16px;
+    gap: 16px;
+  }
+
+  .right-nav-bar {
+    margin-left: auto;
+  }
+
+  .header-content {
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    margin: 12px;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .content {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .card {
+    width: 300px;
+    display: flex;
+    border-style: solid;
+    margin: 16px;
+    flex-direction: row;
+    gap: 25px;
+  }
