@@ -1,7 +1,5 @@
 body {
-    height: 100vh;
     margin: 0;
-    overflow: hidden;
     font-family: Roboto, sans-serif;
     display: flex;
     flex-direction: column;
@@ -67,37 +65,42 @@ body {
     margin: 0;
    }
 
-  .content {
-    display: flex;
-    flex-direction: column;
+  .h1-cards {
+    text-align: center;
+    margin-top: 24px;
   }
 
-  .card-div {
+  .card-container {
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: space-evenly;
     flex-wrap: wrap;
+    align-items: center;
   }
 
   .card {
-    width: 300px;
-    display: flex;
-    border-style: solid;
-    margin: 16px;
-    border-radius: 10px;
-    flex-direction: row;
-    gap: 25px;
-    padding: 8px;
-    flex: 1;
+    width: 25%;
   }
+
+  .card img {
+    border: black;
+    border-style: solid;
+    height: 100px;
+    width: 100px;
+    justify-self: center;
+  }
+
 
   .quote-div {
     display: flex;
     flex-direction: column;
-    padding: 96px 96px 96px;
+    padding: 84px;
     font-size: 24px;
-    line-height: 120%;
     font-style: italic;
+    background-color: #e5e7eb;
+  }
+
+  .quote-div p {
+    text-align: right;
   }
 
   .sign-up {
@@ -108,10 +111,6 @@ body {
     margin: 40px;
   }
 
-  .quote-div p {
-    text-align: right;
-  }
-
   .sign-up button {
     text-align: center;
     width: 110px;
@@ -120,7 +119,6 @@ body {
     padding: 10px;
     border-radius: 8px;
     color: #fff;
-    font-family: 'Roboto', arial;
     text-decoration: none;
     font-weight: bold;
   }
