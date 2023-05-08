@@ -3,6 +3,7 @@ body {
     font-family: Roboto, sans-serif;
     display: flex;
     flex-direction: column;
+    text-align: center;
   }
   
   .header {
@@ -73,27 +74,23 @@ body {
   .card-container {
     display: flex;
     justify-content: space-evenly;
-    flex-wrap: wrap;
-    align-items: center;
-  }
-
-  .card {
-    width: 25%;
+    padding: 12px;
   }
 
   .card img {
     border: black;
     border-style: solid;
-    height: 100px;
-    width: 100px;
-    justify-self: center;
+    border-radius: 15px;
+    height: 200px;
+    width: 200px;
+    object-fit: cover;
   }
 
 
   .quote-div {
     display: flex;
     flex-direction: column;
-    padding: 84px;
+    padding: 64px;
     font-size: 24px;
     font-style: italic;
     background-color: #e5e7eb;
@@ -105,20 +102,33 @@ body {
 
   .sign-up {
     display: flex;
-    flex-direction: column;
-    border-top-style: solid;
     border-radius: 10px;
-    margin: 40px;
+    margin: 40px 200px;
+    padding: 10px 80px;
+    background-color: #3882F6;
+    align-items: center;
+  }
+
+  .sign-up-text {
+    text-align: left;
+  }
+
+  .sign-item {
+    flex: 1;
   }
 
   .sign-up button {
-    text-align: center;
-    width: 110px;
-    border: none;
-    background: #3882f6;
-    padding: 10px;
-    border-radius: 8px;
     color: #fff;
-    text-decoration: none;
-    font-weight: bold;
+    font-family: 'Roboto', arial;
+    border-color: #fff;
+    border-radius: 8px;
+    background-color: #3882F6;
+    padding: 5px 25px;
+    font-size: 15px;
+  }
+
+  .footer {
+    background-color: #1F2937;
+    color: #fff;
+    font-family: 'Roboto', arial;
   }
